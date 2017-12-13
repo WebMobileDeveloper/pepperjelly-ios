@@ -1,0 +1,141 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.5.1)
+  - AlgoliaSearch-Client-Swift (4.8.1)
+  - AWSCore (2.6.1)
+  - AWSS3 (2.6.1):
+    - AWSCore (= 2.6.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Branch (0.18.8):
+    - Branch/Core (= 0.18.8)
+  - Branch/Core (0.18.8)
+  - Cloudinary (2.0.2):
+    - Alamofire (~> 4.1)
+  - ClusterPrePermissions (0.8.1)
+  - Crashlytics (3.8.6):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.13)
+  - FBSDKCoreKit (4.26.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.26.0):
+    - FBSDKCoreKit
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.6.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.1.0):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.5):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.11):
+    - GTMSessionFetcher/Full (= 1.1.11)
+  - GTMSessionFetcher/Core (1.1.11)
+  - GTMSessionFetcher/Full (1.1.11):
+    - GTMSessionFetcher/Core (= 1.1.11)
+  - HockeySDK (3.8.6):
+    - HockeySDK/AllFeaturesLib (= 3.8.6)
+  - HockeySDK/AllFeaturesLib (3.8.6)
+  - MBProgressHUD (1.0.0)
+  - Mixpanel (3.2.0)
+  - NSDate+TimeAgo (1.0.6)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TOCropViewController (2.1.0)
+  - UITextView+Placeholder (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AlgoliaSearch-Client-Swift (~> 4.0)
+  - AWSCore
+  - AWSS3
+  - Branch
+  - Cloudinary (~> 2.0)
+  - ClusterPrePermissions (~> 0.8)
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit (~> 4.11)
+  - FBSDKLoginKit (~> 4.11)
+  - Google/SignIn
+  - HockeySDK (~> 3.8.5)
+  - MBProgressHUD (~> 1.0)
+  - Mixpanel (~> 3.0)
+  - NSDate+TimeAgo
+  - SDWebImage (~> 3.8)
+  - TOCropViewController
+  - UITextView+Placeholder (~> 1.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlgoliaSearch-Client-Swift: 5bdfbc8727f203773245e2410edd7a9c8e831637
+  AWSCore: e7d37fa0715def975acf1b0d75556576780088b8
+  AWSS3: 2e18ede28199a5530955dc1a65434da43dcc4d2c
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Branch: c8181636136a8ac2477f42ec8b811f50aa359c8c
+  Cloudinary: 2d7c889fc4329ebc59c7967ec277df882b2602d5
+  ClusterPrePermissions: 168c127a658e423062550dd9c56fe26042a58bce
+  Crashlytics: 95d05f4e4c19a771250c4bd9ce344d996de32bbf
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  FBSDKCoreKit: c8b8582311ec11b145451d8b9717dc6cc2ae5a76
+  FBSDKLoginKit: f3f03b94c21eb834af243c0a881d48641f47ca60
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: 8c599fc10d25b2af86a3f82fd9631e863f2b1400
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: be83fd28d63ae3087e7d351b1f39c1a7e24ab6e7
+  GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  HockeySDK: ab68303eec6680f6b539de65d747742dd276e934
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Mixpanel: 904f98ac3872340e15c21c138d761c38125ab064
+  NSDate+TimeAgo: 35601c619b2d59290055e4fe76e61d97677a2360
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TOCropViewController: f88194a084f6afe1fd6f21a3f0edda7dd097e38b
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: f6ffed2f6d2402b16f860473632e655987134703
+
+COCOAPODS: 1.2.1
